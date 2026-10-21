@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PDF Pilot Studio — Privacy Policy</title>
+  <style>
+    :root { --ink:#0b1b3a; --muted:#4a5a78; --line:#dde5f2; --brand:#0866e4; --bg:#f6f8fc; }
+    @media (prefers-color-scheme: dark) { :root { --ink:#e6ecf8; --muted:#a9b7d0; --line:#26375a; --brand:#4da3ff; --bg:#0b1630; } }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 "Segoe UI",system-ui,sans-serif; }
+    main { max-width:46rem; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+    h1 { font-size:1.9rem; margin:0 0 .25rem; } h2 { font-size:1.15rem; margin:2rem 0 .5rem; }
+    .meta { color:var(--muted); margin:0 0 1.5rem; }
+    .lead { border-left:4px solid var(--brand); padding:.25rem 1rem; margin:1.5rem 0; font-weight:600; }
+    table { border-collapse:collapse; width:100%; font-size:.95rem; } th,td { border:1px solid var(--line); padding:.5rem .65rem; text-align:left; vertical-align:top; }
+    code { background:rgba(127,127,127,.15); padding:.1rem .3rem; border-radius:4px; }
+    a { color:var(--brand); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>PDF Pilot Studio — Privacy Policy</h1>
+  <p class="meta">Last updated: 20 October 2026</p>
+
+  <p class="lead">PDF Pilot Studio works entirely on your computer. Your documents are never uploaded, and the application collects nothing about you.</p>
+
+  <h2>What the application does with your files</h2>
+  <ul>
+    <li>Files you open or convert are read from, and the results written to, your own disk. Nothing is sent to any server.</li>
+    <li>The application contains no network features: no account, no sign-in, no update check, no analytics, no advertising, no crash reporting. Its web view is also configured so it cannot contact outside servers, and the bundled LibreOffice engine runs with its network and external-link features switched off.</li>
+    <li>Your original files are never changed, with one exception that you start yourself: <strong>Save</strong> in the PDF editor replaces the original after asking you, and by default keeps a copy named <code>name (original).pdf</code> beside it.</li>
+  </ul>
+
+  <h2>What the application stores on your computer</h2>
+  <table>
+    <tr><th>What</th><th>Where</th><th>Contains</th></tr>
+    <tr><td>Settings and preferences</td><td><code>%APPDATA%\UniversalFileConverterPro</code> and <code>%APPDATA%\PDF Pilot Studio</code></td><td>Language, theme, defaults you chose, window size and position</td></tr>
+    <tr><td>Conversion history</td><td><code>%APPDATA%\UniversalFileConverterPro</code></td><td>File <strong>names, sizes, timings and results only — never document content</strong></td></tr>
+    <tr><td>Saved presets</td><td><code>%APPDATA%\UniversalFileConverterPro</code></td><td>The option values you saved; never passwords</td></tr>
+    <tr><td>Temporary files and previews</td><td>Your temporary folder</td><td>Working copies and page images, removed when the app starts and exits</td></tr>
+    <tr><td>Unpacked Office engine</td><td><code>%LOCALAPPDATA%\UniversalFileConverterPro\engines</code></td><td>The LibreOffice program files, removed on uninstall</td></tr>
+  </table>
+  <p>Passwords you type to open or protect a PDF are used only for that operation and are not written to disk. You can clear the history in <strong>Settings</strong>, and uninstalling removes the program; your settings and history stay until you delete the folders above.</p>
+
+  <h2>Microsoft Store</h2>
+  <p>If you obtained the application from the Microsoft Store, Microsoft processes your purchase and licence under its own privacy statement. We receive no personal information from the Store beyond what Microsoft provides in the Partner Center (for example, anonymous download and rating counts).</p>
+
+  <h2>Children</h2>
+  <p>The application collects no personal data from anyone, including children.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the new version will ship with the application and be posted at this address.</p>
+  <p>Questions: <a href="mailto:aidigitallabs2030@gmail.com">aidigitallabs2030@gmail.com</a></p>
+</main>
+</body>
+</html>
